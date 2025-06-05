@@ -1,6 +1,6 @@
-# 🗑️ TRASHPRED: AI-Powered Waste Classification Model
+#  TRASHPRED: AI-Powered Waste Classification Model
 
-## 🌟 Project Summary
+##  Project Summary
 
 TRASHPRED is a deep learning-based image classification model designed to automate the identification of waste types for smarter recycling and environmental management. The model classifies waste images into categories like **plastic**, **metal**, **glass**, **paper**, and **organic** using a custom-trained **Convolutional Neural Network (CNN)** architecture built with **TensorFlow/Keras**.
 
@@ -8,11 +8,11 @@ TRASHPRED is a deep learning-based image classification model designed to automa
 
 The trained model is deployed and publicly available on Hugging Face's Model Hub:
 
-➡️ [Explore the Model on Hugging Face](https://huggingface.co/sriram7737/TRASHPRED)
+ [Explore the Model on Hugging Face](https://huggingface.co/sriram7737/TRASHPRED)
 
 You can use the hosted model for inference, evaluation, or as a base for fine-tuning with your own waste classification datasets.
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 - **Framework**: TensorFlow with Keras API
 - **Input**: RGB images resized to 224x224 pixels
@@ -21,7 +21,7 @@ You can use the hosted model for inference, evaluation, or as a base for fine-tu
 - **Training**: 25 epochs, batch size of 32, Adam optimizer
 - **Dataset**: Balanced, manually labeled dataset of common household and industrial waste items
 
-## 🖥️ Example Inference (Python)
+##  Example Inference (Python)
 
 ```python
 import tensorflow as tf
@@ -43,7 +43,7 @@ predicted_class = np.argmax(predictions)
 print(f"Predicted Waste Category: {predicted_class}")
 ```
 
-## 📁 Repository Contents
+##  Repository Contents
 
 ```
 TRASHPRED/
@@ -55,18 +55,18 @@ TRASHPRED/
 ├── README.md                # Project documentation
 ```
 
-## 🚀 Use Cases
+##  Use Cases
 
 - Smart recycling kiosks and IoT trash sorters
 - Environmental education tools
 - Waste detection in industrial automation systems
 - Robotics and sustainability research projects
 
-## ⚖️ License
+##  License
 
 This project is licensed under the **MIT License** — free for personal, educational, or commercial use with attribution.
 
-## 🙋‍♂️ About the Author
+##  About the Author
 
 - **Name**: Sriram Rampelli  
 - **GitHub**: [@sriram7737](https://github.com/sriram7737)  
